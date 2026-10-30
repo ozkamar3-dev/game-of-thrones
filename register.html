@@ -1,0 +1,140 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>הרשמה</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>הרשמה לאתר משחקי הכס</h1>
+    </header>
+
+    <nav>
+        <a href="HTMLPage1.html">עמוד הבית</a>
+        <a href="houses.html">הבתים הגדולים</a>
+        <a href="characters.html">הדמויות</a>
+		<a href="battles.html">הקרבות</a>
+        <a href="login.html">התחברות</a>
+        <a href="register.html">הרשמה</a>
+
+		
+    </nav>
+
+    <main>
+
+        <h2>טופס הרשמה</h2>
+
+        <form>
+			<img src="https://i.pinimg.com/736x/71/d6/f7/71d6f77f01d7a51c4f729617684080c3.jpg" class="register-image">
+			<img src="https://i.pinimg.com/736x/aa/7f/3a/aa7f3abb8889fb958b4e21797c05c25f.jpg" class="register-image2">
+
+            <label>שם משתמש:</label>
+            <input type="text" name="Username">
+            <br><br>
+
+            <label>סיסמה:</label>
+            <input type="password" name="Password">
+            <br><br>
+
+            <label>אימות סיסמה:</label>
+            <input type="password" name="ConfirmPassword">
+            <br><br>
+
+            <label>שם פרטי:</label>
+            <input type="text" name="Firstname">
+            <br><br>
+
+            <label>שם משפחה:</label>
+            <input type="text" name="Lastname">
+            <br><br>
+
+            <label>עיר מגורים:</label>
+            <input type="text" name="City" list="cities">
+
+            <datalist id="cities">
+                <option value="תל אביב">
+                <option value="ירושלים">
+                <option value="חיפה">
+                <option value="באר שבע">
+                <option value="נתניה">
+                <option value="פתח תקווה">
+                <option value="ראשון לציון">
+                <option value="אשדוד">
+                <option value="אילת">
+                <option value="כפר סבא">
+            </datalist>
+            <br><br>
+
+            <label>קידומת טלפון:</label>
+            <select name="Prefix">
+                <option value="050">050</option>
+                <option value="051">051</option>
+                <option value="052">052</option>
+                <option value="053">053</option>
+                <option value="054">054</option>
+                <option value="055">055</option>
+                <option value="058">058</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="072">072</option>
+                <option value="073">073</option>
+                <option value="074">074</option>
+                <option value="076">076</option>
+                <option value="077">077</option>
+                <option value="079">079</option>
+            </select>
+            <br><br>
+
+            <label>טלפון:</label>
+            <input type="text" name="Phone">
+            <br><br>
+
+            <label>מייל:</label>
+            <input type="text" name="Email">
+            <br><br>
+
+            <label>מין:</label>
+            <input type="radio" name="Gender" value="זכר"> זכר
+            <input type="radio" name="Gender" value="נקבה"> נקבה
+            
+            <br><br>
+
+            <label>תחביבים:</label>
+            <br>
+            <input type="checkbox" name="Hobbies" value="ספורט"> ספורט
+            <br>
+            <input type="checkbox" name="Hobbies" value="משחקי מחשב"> משחקי מחשב
+            <br>
+            <input type="checkbox" name="Hobbies" value="סרטים וסדרות"> סרטים וסדרות
+            <br>
+            <input type="checkbox" name="Hobbies" value="מוזיקה"> מוזיקה
+            <br>
+            <input type="checkbox" name="Hobbies" value="קריאה"> קריאה
+            <br>
+            <input type="checkbox" name="Hobbies" value="טיולים"> טיולים
+            <br>
+			<input type="checkbox" name="Hobbies" value="יציאות עם חברים"> יציאות עם חברים
+			<br>
+			<input type="checkbox" name="Hobbies" value="קניות"> קניות
+			<br><br>
+
+            <input type="submit" value="שלח">
+            <input type="reset" value="נקה">
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>משחקי הכס </p>
+    </footer>
+
+</body>
+</html>
